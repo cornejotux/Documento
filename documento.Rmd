@@ -1,0 +1,30 @@
+---
+title: "Creando informe desde RStudio"
+author: "JorgeCornejo"
+date: "`r Sys.Date()`"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    lof: true
+    lot: true
+  pdf: 
+    toc: true
+    toc-depth: 3
+    lof: true
+    lot: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Titulo principal
+
+Este es un documento de ejemplo para explicar como generar in documento o informe utilizando RMarkdown.
+
+## Titulo secundario
+
+### Titulo nivel 3
+
+#### Titutlo nivel 4
